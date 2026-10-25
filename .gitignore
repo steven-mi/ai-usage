@@ -1,0 +1,15 @@
+# Local build output
+dist/
+.build/
+DerivedData/
+
+# macOS and Xcode user files
+.DS_Store
+*.xcuserstate
+
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+.codex/auth.json
+.claude/.credentials.json
